@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  integratewithcloud:
+    image: integratewithcloud
+    build:
+      context: .
+      dockerfile: IntegrateWithCloud\Dockerfile
